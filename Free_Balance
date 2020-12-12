@@ -1,0 +1,21 @@
+Start program
+int Price, Total
+Printlin (“Please show the total purchase amount”);
+Display Price
+Set Total=Price
+While Total>=20 do
+Read Total
+if (Total ==20) then
+Print (“Congratulation you get a free balance with 10 OMR”);
+Else if (Total >20) then
+Print (“Congratulation you get a free balance with 20 OMR”):
+End if
+if (Total==15) then
+Print (“Please buy more items to win 10 OMR free balance”);
+Else 
+Print (“Sorry you can’t get the free balance”):
+End if
+i=i+1
+End while
+Print (“Thank you for shopping, have a nice day”);
+End program
